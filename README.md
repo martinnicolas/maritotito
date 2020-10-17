@@ -24,7 +24,7 @@ Add this line to yout `application.js` file:
 
 	//= require maritotito
 
-In every file field on your form add the onchange attribute with the function `"validateFiles(this);"` and a data attribute with the Hash with the maximum file size and allowed extensions:
+In every file field on your form add the onchange attribute with the function `"validateFiles(this);"` and a data attribute with a Hash containing maximum file size and allowed extensions:
 
 ```ruby
 <%= f.file_field :some_field, onchange: "validateFiles(this);", data: { max_file_size: 2.megabytes, allowed_extensions: ['pdf'] } %>
