@@ -20,7 +20,11 @@ Or install it yourself as:
 
 ## Usage
 
-In every file field add the onchange attribute and a Hash with the maximum file size and allowed extensions.
+Add this line to yout `application.js` file:
+
+	//= require maritotito
+
+In every file field on yout form add the onchange attribute with the function validateFiles(this) and a Hash with the maximum file size and allowed extensions:
 
 ```ruby
 <%= f.file_field :some_field, onchange: "validateFiles(this);", data: { max_file_size: 2.megabytes, allowed_extensions: ['pdf'] } %>
@@ -40,7 +44,7 @@ To install this gem onto your local machine, run `bundle exec rake install`. To 
 
 ## Contributing
 
-Bug reports and pull requests are welcome on GitHub at https://github.com/[USERNAME]/maritotito. This project is intended to be a safe, welcoming space for collaboration, and contributors are expected to adhere to the [Contributor Covenant](http://contributor-covenant.org) code of conduct.
+Bug reports and pull requests are welcome on GitHub at https://github.com/martinnicolas/maritotito. This project is intended to be a safe, welcoming space for collaboration, and contributors are expected to adhere to the [Contributor Covenant](http://contributor-covenant.org) code of conduct.
 
 ## License
 
