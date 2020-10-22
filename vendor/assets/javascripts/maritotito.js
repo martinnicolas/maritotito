@@ -1,6 +1,6 @@
 function validateFiles(inputFile) {
   var maxFileSize = $(inputFile).data('max-file-size');
-  var maxExceededMessage = "Este archivo exede el tamaño maximo permitido ("+String(maxFileSize)[0]+" MB)";
+  var maxExceededMessage = "Este archivo excede el tamaño maximo permitido ("+String(maxFileSize)[0]+" MB)";
   var allowedExtension = $(inputFile).data('allowed-extensions');
   var extErrorMessage = "Solo estan permitidos los archivos con extension: "+allowedExtension.join(', ');
   var extName;
