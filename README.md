@@ -2,7 +2,7 @@
 
 [![Build Status](https://travis-ci.org/martinnicolas/maritotito.svg?branch=master)](https://travis-ci.org/martinnicolas/maritotito) [![Wercker](https://img.shields.io/github/license/mashape/apistatus.svg)](https://opensource.org/licenses/MIT)
 
-This gems allows you to run client side validations for files size and extension. This is an usefull aproachment for complement server side validations or prevent server configuration.
+This gem allows you to run client side validations for files size and extension. This is an usefull aproachment for complement server side validations or prevent server configuration.
 
 ## Installation
 
