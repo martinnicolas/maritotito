@@ -9,7 +9,7 @@ This gem allows you to run client side validations for files size and extension.
 Add this line to your application's Gemfile:
 
 ```ruby
-gem 'maritotito', github: 'martinnicolas/maritotito'
+gem 'maritotito', git: 'https://github.com/martinnicolas/maritotito'
 ```
 
 And then execute:
