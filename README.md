@@ -1,6 +1,6 @@
 # Maritotito
 
-[![Build Status](https://travis-ci.org/martinnicolas/maritotito.svg?branch=master)](https://travis-ci.org/martinnicolas/maritotito) [![Wercker](https://img.shields.io/github/license/mashape/apistatus.svg)](https://opensource.org/licenses/MIT) [![Contributor Covenant](https://img.shields.io/badge/Contributor%20Covenant-2.1-4baaaa.svg)](code_of_conduct.md) 
+[![Ruby](https://github.com/martinnicolas/maritotito/actions/workflows/ruby.yml/badge.svg)](https://github.com/martinnicolas/maritotito/actions/workflows/ruby.yml) [![Wercker](https://img.shields.io/github/license/mashape/apistatus.svg)](https://opensource.org/licenses/MIT) [![Contributor Covenant](https://img.shields.io/badge/Contributor%20Covenant-2.1-4baaaa.svg)](code_of_conduct.md) 
 
 This gem allows you to run client side validations for files size and extension. This is an usefull aproachment for complement server side validations or prevent server configuration.
 
